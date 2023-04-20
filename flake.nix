@@ -19,8 +19,12 @@
 
             installPhase = ''
               mkdir -p $out/bin
-              ln -s ${self}/node_modules/.bin/ipfs-car $out/bin/
+              cp ${self}/node_modules/.bin/ipfs-car $out/bin/
             '';
+
+            buildInputs = [
+              pkgs.nodejs
+            ];
           };
         };
       }
