@@ -18,23 +18,6 @@
         "type": "github"
       }
     },
-    "ipfs-car_src": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1679327134,
-        "narHash": "sha256-7kTJ4141Ow2a+//BsrENsxTJyDsiK0gY+HOznX3rTqk=",
-        "owner": "web3-storage",
-        "repo": "ipfs-car",
-        "rev": "31817e00f703705bf7e9e25f61f03aa87b9afc66",
-        "type": "github"
-      },
-      "original": {
-        "owner": "web3-storage",
-        "ref": "v1.0.0",
-        "repo": "ipfs-car",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1681759395,
@@ -54,7 +37,6 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "ipfs-car_src": "ipfs-car_src",
         "nixpkgs": "nixpkgs"
       }
     },
