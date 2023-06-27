@@ -5,11 +5,11 @@
         "systems": "systems"
       },
       "locked": {
-        "lastModified": 1681202837,
-        "narHash": "sha256-H+Rh19JDwRtpVPAWp64F+rlEtxUWBAQW28eAi3SRSzg=",
+        "lastModified": 1687709756,
+        "narHash": "sha256-Y5wKlQSkgEK2weWdOu4J3riRd+kV/VCgHsqLNTTWQ/0=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "cfacdce06f30d2b68473a46042957675eebb3401",
+        "rev": "dbabf0ca0c0c4bce6ea5eaf65af5cb694d2082c7",
         "type": "github"
       },
       "original": {
@@ -18,13 +18,30 @@
         "type": "github"
       }
     },
+    "ipfs-car_src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1679327134,
+        "narHash": "sha256-7kTJ4141Ow2a+//BsrENsxTJyDsiK0gY+HOznX3rTqk=",
+        "owner": "web3-storage",
+        "repo": "ipfs-car",
+        "rev": "31817e00f703705bf7e9e25f61f03aa87b9afc66",
+        "type": "github"
+      },
+      "original": {
+        "owner": "web3-storage",
+        "ref": "v1.0.0",
+        "repo": "ipfs-car",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1684782344,
-        "narHash": "sha256-SHN8hPYYSX0thDrMLMWPWYulK3YFgASOrCsIL3AJ78g=",
+        "lastModified": 1687729501,
+        "narHash": "sha256-mTLkMePoHUWvTCf3NuKbeYEea/tsikSIKBWwb9OfRr4=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "8966c43feba2c701ed624302b6a935f97bcbdf88",
+        "rev": "35130d4b4f0b8c50ed2aceb909a538c66c91d4a0",
         "type": "github"
       },
       "original": {
@@ -37,6 +54,7 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
+        "ipfs-car_src": "ipfs-car_src",
         "nixpkgs": "nixpkgs"
       }
     },
